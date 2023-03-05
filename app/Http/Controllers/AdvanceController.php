@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Advance;
 use Illuminate\Http\Request;
 
-class PortafilioControllers extends Controller
+class AdvanceController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -33,7 +34,7 @@ class PortafilioControllers extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(string $id)
+    public function show(Advance $advance)
     {
         //
     }
@@ -41,7 +42,7 @@ class PortafilioControllers extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(string $id)
+    public function edit(Advance $advance)
     {
         //
     }
@@ -49,7 +50,7 @@ class PortafilioControllers extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, string $id)
+    public function update(Request $request, Advance $advance)
     {
         //
     }
@@ -57,7 +58,7 @@ class PortafilioControllers extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(string $id)
+    public function destroy(Advance $advance)
     {
         //
     }
