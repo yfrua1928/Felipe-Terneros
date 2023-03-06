@@ -12,7 +12,7 @@ class AdvanceController extends Controller
      */
     public function index()
     {
-        //
+        return view('Advance');
     }
 
     /**

@@ -12,7 +12,7 @@ class GenericController extends Controller
      */
     public function index()
     {
-        //
+        return view('Generic');
     }
 
     /**

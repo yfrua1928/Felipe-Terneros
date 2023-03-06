@@ -12,7 +12,7 @@ class RankController extends Controller
      */
     public function index()
     {
-        //
+        return view('Rank');
     }
 
     /**
